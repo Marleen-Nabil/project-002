@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './layout/Header'
 import Footer from './layout/Footer'
-import NavBar from './layout/NavBar'
 import Body from './layout/Body'
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
   return (
     <>
       <Header></Header>
-      <NavBar></NavBar>
       <Body></Body>
       <Footer></Footer>
     </>
