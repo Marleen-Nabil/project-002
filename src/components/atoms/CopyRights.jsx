@@ -1,5 +1,5 @@
-export default function CopyRights(){
+export default function CopyRights(props){
     return(
-        <div></div>
+        <p className={`font-bold`}>{props.copy}</p>
     )
 }
